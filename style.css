@@ -1,0 +1,35 @@
+/*
+		Word Counter
+		Author: Denise Dunford
+		Date: 11/12/14
+		Last Update: 11/12/2014
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	color: #000;
+}
+
+header {
+	font-family: "Shadows Into Light", cursive;
+	margin-left: 5%;
+	background-color: #fff;
+	color: #000;
+	font-size: 2em;
+}
+
+section {
+	margin-left: 5%;
+}
+
+
+footer {
+	text-align: center;
+	font-size: .75em;
+}
+
+a:link {color:#5c5c5c; text-decoration: none;}      /* unvisited link */
+a:visited {color:#5c5c5c; text-decoration: none;}  /* visited link */
+a:hover {color:#5c5c5c; text-decoration: none;}  /* mouse over link */
+a:active {color:#5c5c5c; text-decoration: none;}  /* selected link */
