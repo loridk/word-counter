@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+		Word Counter
+		Author: Denise Dunford
+		Date: 11/12/14
+		Last Update: 11/12/2014
+	-->
+
+	<meta charset="UTF-8" />
+	<title>Word Counter</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	
+	<script>
+	function submit(){	
+		var textbox1 = document.getElementById("textbox1").value;
+		var textbox_count = textbox1.split(' ').length;
+		alert("Word count: " + textbox_count);
+    }
+	</script>
+</head>
+<body>
+<header>
+<p>
+	Word Counter
+</p>
+<p id="p1"></p>
+</header>
+
+
+
+
+
+<section>
+	<textarea rows="25" cols="100" id="textbox1"></textarea>
+	<br />
+	<button onclick="submit();" href="javascript:;">Submit</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+<p>
+	Created by - <a href="http://dkdevs.com" target="_blank">DK Devs</a>
+</p>
+<p>
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Word Counter</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://dkdevs.com" property="cc:attributionName" rel="cc:attributionURL">DK Devs</a> is licensed under a 
+	<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+</p>
+</footer>
+</body>
+</html>
